@@ -1588,6 +1588,24 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 250px;
+  margin: 0 auto;
+}
+.flex-container > div {
+  align-items: center;
+  color: #00acee;
+  width: 100%;
+}
 @media (min-width: 768px) {
   .container {
     width: 750px;
